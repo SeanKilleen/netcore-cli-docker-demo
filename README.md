@@ -2,6 +2,10 @@
 
 A quick demo to show how to build a console app that runs in a docker container.
 
+## NOTE: This content isn't finished yet.
+
+Wanted to push it up before I forgot about it, though.
+
 ## Pre-requisites
 
 * Docker
