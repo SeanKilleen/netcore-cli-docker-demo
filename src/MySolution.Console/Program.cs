@@ -1,12 +1,23 @@
-﻿using System;
-
+﻿
 namespace MySolution.Console
 {
+    using System;
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            while(true)
+            {
+                Console.WriteLine("What's your name?");
+                var name = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(name)){
+                    break;   
+                }
+
+                Console.WriteLine($"Hello, {name}!");
+            }
+            Console.WriteLine("Bye!");
         }
     }
 }
